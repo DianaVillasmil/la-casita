@@ -1,0 +1,124 @@
+body{
+	background-color: lightblue;
+}
+
+.contenedor {
+	position: fixed;
+	top: 200px;
+	left: 550px;
+}
+.sol {
+     width: 100px;
+     height: 100px;
+     position: relative;
+     top: 100px;
+     left: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #fff852;
+}
+.techo {
+    width: 300px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 130px solid black;
+}
+
+.corazon:before {
+  content: '\2665';
+  color: #ff5c5c;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  margin-left: calc(-71.25px/2);
+  z-index: 40;
+  font-size: 120px;
+  line-height: 80px;
+}
+
+.puerta {
+     width: 150px; 
+     height: 210px; 
+     left: 50px;
+     background: #666666;
+     position: absolute;
+     z-index: 30;
+     top: 220px;
+     text-align: left;
+     vertical-align: middle;
+}
+
+.ventana {
+     width: 100px; 
+     height: 100px; 
+     left: 260px;
+     background: #ff62b0;
+     position: absolute;
+     z-index: 30;
+     top: 250px;
+}
+
+.humo1 {
+     width: 25px;
+     height: 25px;
+     position: absolute;
+     top: -10px;
+     left: 380px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #a8a8a8;
+}
+
+.humo2 {
+     width: 25px;
+     height: 25px;
+     position: absolute;
+     top: -20px;
+     left: 430px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #a8a8a8;
+}
+
+.humo3 {
+     width: 25px;
+     height: 25px;
+     position: absolute;
+     top: 10px;
+     left: 350px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #a8a8a8;
+}
+
+.chimenea {
+     width: 30px; 
+     height: 60px; 
+     left: 330px;
+     background: #ff5c5c;
+     position: absolute;
+     z-index: 30;
+     top: 40px;
+}
+
+.pared {
+     width: 420px; 
+     height: 300px; 
+     background: #401f08;
+     position: relative;
+     top: 0px;
+}
+
+.piso {
+     width: 100%; 
+     height: 100px; 
+     background: #35b729;
+     position: relative;
+     top: 550px;
+     margin: 0px 0px;
+}
